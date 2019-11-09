@@ -1,3 +1,4 @@
+import os
 
 def load_plugin():
     """
@@ -8,3 +9,12 @@ def load_plugin():
     - changer le dossier de travail par %HOMESHARE%/python/
     - ajouter le dossier partager en écriture contenant les libs maisons au sys.path
     """
+    dossier = os.path.join(
+        'S:',
+        '_LOGICIELS',
+        'MATH',
+        'Python',
+        'libs'
+    )
+    if os.path.isdir(dossier):
+        os.environ['PYTHONPATH'] = dossier

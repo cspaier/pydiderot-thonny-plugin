@@ -5,7 +5,7 @@ setup (
         version="0.0.3",
         description="Un plugin qui configure thonny pour le lycée Diderot à Marseille",
         long_description=open('README.md').read(),
-        url="https://github.com/cspaier/pydiderot-thonny-plugin",
+        url="https://github.com/cspaier/thonny-pydiderot-plugin",
         author="Clément Spaier",
         author_email="clement.spaier@gmail.com",
         license="MIT",
@@ -37,5 +37,5 @@ setup (
         python_requires=">=3.5",
         install_requires=["thonny >= 3.0.0"],
         include_package_data=True,
-        packages=["thonnycontrib.pydiderot-plugin"],
+        packages=["thonnycontrib.thonny-pydiderot-plugin"],
 )
