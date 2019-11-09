@@ -1,9 +1,8 @@
 # pydiderot-thonny-plugin
 Un plugin qui configure thonny pour le lycée Diderot à Marseille
 
+Hébergé sur pypi: https://pypi.org/project/thonny-pydiderot-plugin
 
-Pour l'instant on est chez test.pypi: https://test.pypi.org/project/thonny-pydiderot-plugin/
+Pour installer: `pip install thonny-pydiderot-plugin`
 
-Pour installer: `pip install --index-url https://test.pypi.org/simple/ --no-deps thonny-pydiderot-plugin`
-
-Mais bon pour l'instant ca fait rien.
+On met `os.environ[PYTHONPATH]` dans `S:/_LOGICIELS/MATH/Python/libs`.
